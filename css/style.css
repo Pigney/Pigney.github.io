@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg {
+    background: url(../img/background.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    font-family: Arial;
+}
+
+.middle {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
