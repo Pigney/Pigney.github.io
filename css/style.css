@@ -1,30 +1,21 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    background-color: #171717;
+    color: #FFFFFF;
+    font-family: Roboto, Arial;
+    overflow: hidden;
 }
 
-.bgimg {
-    background: url(../img/background.png);
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: #fff;
-    font-family: Arial;
+.Hcenter {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .middle {
-    position: absolute;
     top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
 }
 
-.bottom {
-    position: absolute;
-    top: 98.5%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+.footer {
+    bottom: 0;
 }
