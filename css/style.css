@@ -3,6 +3,8 @@ body, html {
     color: #FFFFFF;
     font-family: Roboto, Arial;
     overflow: hidden;
+    background-image: url(../img/42341172946501209515760.webp);
+    background-size: cover;
 }
 
 .Hcenter {

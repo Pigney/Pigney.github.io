@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="./css/styleReact.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
 </head>
-<!-- CONTACT EMAIL: pigneygames@outlook.com -->
+<!-- CONTACT EMAIL: contactpigneygames@gmail.com -->
 <body>
     <div class="body">
         <iframe id="yourvideo" width="1280" height="720" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h id="rightsdisclaimer"></h>
+        <h class="rightsdisclaimer">I may not own the right(s) and/or (a) license(s) to the content above.<br>If you wish to request I do not stream this content you may contact me and I will comply.</h>
+        <br>
+        <h class="rightsdisclaimer" id="vidid" style="top: 90%;"></h>
     </div>
     <script>
         var cusarg1 = window.location.search;
         var cusarg2 = cusarg1.slice(1);
         console.log("Custom arg: " + cusarg2);
         document.getElementById("yourvideo").src = "https://www.youtube.com/embed/" + cusarg2 + "?modestbranding=1&rel=0&autoplay=1";
-        document.getElementById("rightsdisclaimer").innerHTML = "I may not own the right(s) and/or (a) license(s) to the content above.<br>If you wish to request I do not stream this content you may contact me and I will comply.<br>Video ID: " + cusarg2;
+        document.getElementById("vidid").textContent = "Video ID: " + cusarg2;
     </script>
 </body>
 </html>
